@@ -49,7 +49,7 @@ function TodoList() {
 
   return (
     <div>
-        <h1>What's you plan  for Today ? </h1>
+        <h1>ToDo App</h1>
         <Expo/>
         <TodoForm onSubmit = {addTodo}/>
         <Todo todos = {todos} completeTodo = {completeTodo}  removeTodo = {removeTodo} updateTodos = {updateTodos}/> 
